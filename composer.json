@@ -2,12 +2,16 @@
     "name": "s3b4stian/http-message",
     "description": "Common interface for HTTP messages with strict typing",
     "keywords": ["psr", "psr-7", "http", "http-message", "request", "response"],
-    "homepage": "https://github.com/php-fig/http-message",
+    "homepage": "https://github.com/s3b4stian/http-message",
     "license": "MIT",
     "authors": [
         {
             "name": "PHP-FIG",
             "homepage": "http://www.php-fig.org/"
+        },
+        {
+            "name": "Sebastian Rapetti",
+            "email": "sebastian.rapetti@alice.it"
         }
     ],
     "require": {
