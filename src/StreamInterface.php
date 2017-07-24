@@ -151,8 +151,9 @@ interface StreamInterface
      * @link http://php.net/manual/en/function.stream-get-meta-data.php
      * @param string $key Specific metadata to retrieve.
      * @return array Returns an associative array if no key is
-     *     provided. Returns a specific key value if a key is provided and the
-     *     value is found, or a void array if the key is not found.
+     *     provided. Returns an associative array with the specific 
+     *     key value if a key is provided and the value is found, 
+     *     or a void array if the key is not found.
      */
     public function getMetadata(string $key = '') : array;
 }
